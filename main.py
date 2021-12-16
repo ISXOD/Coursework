@@ -39,7 +39,7 @@ for i in names_planet:
     plt.plot(mas_x, mas_S)
     plt.plot([0, 0], [0, h])
 
-    max_V =
+    print(i, mas_V[-1])
     plt.figure()
     plt.title("График V(t) на планете " + i)
     plt.xlabel("t")
